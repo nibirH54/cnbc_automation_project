@@ -15,7 +15,7 @@ public class cnbcSignInTest {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//div[@class='SignInMenu-signInMenu']")).click();
         driver.findElement(By.name("email")).sendKeys("hasannibir54@gmail.com");
-        driver.findElement(By.name("password")).sendKeys("Cnbc@123");
+        driver.findElement(By.name("password")).sendKeys("Cnbc@1234");
         Thread.sleep(3000);
         driver.findElement(By.xpath("//button[@form='sign-in']")).click();
         Thread.sleep(4000);

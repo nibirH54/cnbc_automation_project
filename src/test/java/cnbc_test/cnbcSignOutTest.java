@@ -18,7 +18,7 @@ public class cnbcSignOutTest {
         driver.findElement(By.name("password")).sendKeys("Cnbc@123");
         Thread.sleep(3000);
         driver.findElement(By.name("signin")).click();
-        Thread.sleep(5000);
+        Thread.sleep(4000);
         driver.findElement(By.xpath("//span[@class='SignInMenu-dropdownArrow']")).click();
         driver.findElement(By.xpath("//li[@data-text='Sign Out']")).click();
         String pageTitle = driver.getTitle();
